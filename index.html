@@ -5,9 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/main.js" defer></script>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+    <header>
+        <img src="images/logo.svg" class="logo">
+        <p>You are fighting a computer! Luck is your best bet...</p>
+        <p>Choose your weapon!</p>
+        <p id="roundwinner"></p>
+    </header>
+
+<div class="weapons">
+    <img src="images/rock.svg" class="rockimg">
+    <img src="images/paper.svg" class="paperimg">
+    <img src="images/scissors.svg" class="scissorsimg">
+</div>
+
+<div class="results">
+    <p>SCOREBOARD</p>
+    <p>YOU</p>
+    <span id="usrscore">0</span>
+    <p>COMPUTER</p>
+    <span id="compscore">0</span>
+</div>
+       
     
 </body>
 </html>

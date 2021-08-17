@@ -1,0 +1,40 @@
+header, .weapons, .results{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+height: 7vh;
+width: 7vw;
+}
+
+.weapons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.rockimg, .paperimg, .scissorsimg{
+  height: 18vh;
+  width: 18vw;
+  cursor: pointer;
+}
+
+.rockimg:hover{
+  scale: 1.1;
+  border: 1px solid black;
+  transition: 0.8s;
+}
+
+.paperimg:hover{
+  scale: 1.1;
+  border: 1px solid black;
+  transition: 0.8s;
+}
+
+.scissorsimg:hover{
+  scale: 1.1;
+  border: 1px solid black;
+  transition: 0.8s;
+}
