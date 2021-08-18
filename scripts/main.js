@@ -22,6 +22,26 @@ let compScore = 0;
 const usrScore = document.querySelector('#usrscore');
 const computerScore = document.querySelector('#compscore');
 
+function checkScore () {
+    if (playerScore === 5){
+        alert("Congratulations! You Win!")
+        playerScore -= playerScore;
+        usrScore.textContent = playerScore;
+        compScore -= compScore;
+        computerScore.textContent = compScore;
+    }
+    
+    else if (compScore === 5){
+        alert("Sorry! You Lose!");
+        playerScore -= playerScore;
+        usrScore.textContent = playerScore;
+        compScore -= compScore;
+        computerScore.textContent = compScore;
+    }
+    else{
+        return
+    }
+    }
 
 function playRound (playerSelection, computerSelection = computerPlay())  {
     playerSelection = playerSelection.toUpperCase()
@@ -81,23 +101,7 @@ playScissors.addEventListener('click', () => playRound('scissors'));
 
 const roundWinner = document.querySelector('#roundwinner');
 
-function checkScore () {
-if (playerScore === 5){
-    alert("Congratulations! You Win!")
-    usrScore.textContent = 0;
-    computerScore.textContent = 0;
-}
 
-else if (compScore === 5){
-    alert("Sorry! You Lose!");
-    usrScore.textContent = 0;
-    computerScore.textContent = 0;
-   
-}
-else{
-    return
-}
-}
     // Testing
     // function game()    {
     // console.log(playRound(prompt('Choose your weapon!', ''), computerSelection));
