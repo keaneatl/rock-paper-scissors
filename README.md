@@ -11,4 +11,4 @@ The design and styling has not been fully established as of now, as I focused on
 
 ALSO, I did mess up the branches here, as I did not push anything before making a custom branch, hence, the one I made was considered the main one. I am aware of that mistake and have learned from it.
 
-Right now I am working on: The Calculator Project.
+Right now I am working on: A Library App Project.
