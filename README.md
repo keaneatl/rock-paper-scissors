@@ -1,14 +1,48 @@
-This is a simple rock-paper-scissors game with a UI. It's a project from The Odin Project's program.
+<p align="center">
+  <h1 align="center">Rock Paper Scissors</h1>
+  <p align="center">
+    <strong>This is a simple rock-paper-scissors game made using JavaScript, with a UI. It's another project from The Odin Project's program</strong>
+     <br /><br />
+    <a href="https://keaneatl.github.io/rock-paper-scissors/" target="_blank"><strong>Live Preview »</strong></a>
+    <br /><br />
+  </p>
+</p>
 
-What I learned:
+<a href="https://keaneatl.github.io/rock-paper-scissors/" target="_blank"><img src="/images/livepreview.jpeg" alt="Rock Paper Scissors Live Preview"></a>
+
+<h2 style="display: inline-block">Table of Contents</h2>
+<ol>
+  <li>
+    <a href="#about-the-project">About The Project</a>
+    <ul>
+      <li><a href="#made-with">Made With</a></li>
+      <li><a href="#things-i-learned">Things I Learned</a></li>
+      <li><a href="#areas-of-improvement">Areas of Improvement</a></li>
+    </ul>
+  </li>
+
+  <li><a href="#disclaimer">Disclaimer</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ol>
+
+## About The Project
+### Made With
+1. HTML
+2. CSS
+3. JavaScript
+
+### Things I Learned
 1. DOM Manipulation
 2. Callback functions
 3. Creating and merging branches for github
 4. Forking a repository
 
-DISCLAIMER: 
-The design and styling has not been fully established as of now, as I focused on figuring out the functionality first. However, I will fully establish the overall design once I finish the last project on The Odin Project.
+### Areas of improvement
+1. Design is not fully responsive
+2. I messed up the branches here, as I did not push anything to 'main' before making a custom branch 'rps-ui', hence, 'rps-ui' was considered the main one. I am aware of that mistake and have learned from it
 
-ALSO, I did mess up the branches here, as I did not push anything before making a custom branch, hence, the one I made was considered the main one. I am aware of that mistake and have learned from it.
+## Disclaimer
+The resources I used, specifically the custom fonts installed, backgrounds, pictures, and the svg icons are only utilized for personal use, and not otherwise. 
 
-Right now I am working on: A Library App Project.
+## Contact
+Keane Andre - @keaneatl (Instagram, Facebook, Twitter) - <a href="mailto:kyntltntn@protonmail.com">kyntltntn@protonmail.com</a>
