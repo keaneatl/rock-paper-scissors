@@ -1,7 +1,6 @@
 
 function computerPlay()    {
     let randomnum = Math.floor(Math.random() * 3)
-    
 
     if (randomnum === 0)    {
         return 'Rock' 
@@ -29,6 +28,7 @@ function checkScore () {
         usrScore.textContent = playerScore;
         compScore -= compScore;
         computerScore.textContent = compScore;
+        roundWinner.textContent = "";
     }
     
     else if (compScore === 5){
@@ -37,6 +37,7 @@ function checkScore () {
         usrScore.textContent = playerScore;
         compScore -= compScore;
         computerScore.textContent = compScore;
+        roundWinner.textContent = "";
     }
     else{
         return
@@ -100,13 +101,3 @@ const playScissors = document.querySelector('.scissorsimg');
 playScissors.addEventListener('click', () => playRound('scissors'));
 
 const roundWinner = document.querySelector('#roundwinner');
-
-
-    // Testing
-    // function game()    {
-    // console.log(playRound(prompt('Choose your weapon!', ''), computerSelection));
-    // console.log(playRound(prompt('Choose your weapon!', ''), computerSelection));
-    // console.log(playRound(prompt('Choose your weapon!', ''), computerSelection));
-    // console.log(playRound(prompt('Choose your weapon!', ''), computerSelection));
-    // console.log(playRound(prompt('Choose your weapon!', ''), computerSelection));
-    // }

@@ -1,41 +1,95 @@
-header, .weapons, .results{
+.main-container{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(19,19,19,1) 71%, rgba(24,24,24,1) 89%);  
+  height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.logo{
-height: 7vh;
-width: 7vw;
+.content-container{
+  border: 1px solid #494949;
+  border-radius: 8px;
+  width: 850px;
+  height: 260px;
+  display: flex;
+  align-items: center;
+}
+
+.header{
+  color: white;
+  align-self: flex-start;
+  margin: 15px;
+}
+
+.title{
+  font-family: NeonSans;
+  font-size: 30px;
+}
+
+.roundresult{
+  font-family: Simpletix;
+  font-size: 17px;
+}
+
+.weapons, .results{
+  font-family: Simpletix;
+  color: white;
+}
+
+.results{
+  font-size: 23px;
+
 }
 
 .weapons{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .rockimg, .paperimg, .scissorsimg{
-  height: 18vh;
-  width: 18vw;
+  height: 150px;
+  width: 180px;
   cursor: pointer;
 }
 
 .rockimg:hover{
   scale: 1.1;
-  border: 1px solid black;
-  transition: 0.8s;
 }
 
 .paperimg:hover{
   scale: 1.1;
-  border: 1px solid black;
-  transition: 0.8s;
 }
 
 .scissorsimg:hover{
   scale: 1.1;
-  border: 1px solid black;
-  transition: 0.8s;
+}
+
+@font-face {
+  font-family: Libel Suit;
+  src: url(../fonts/libel-suit-rg.otf);
+}
+
+@font-face {
+  font-family: Armstrong;
+  src: url(../fonts/Armstrong.otf);
+}
+
+@font-face {
+  font-family: NeonSans;
+  src: url(../fonts/NeonSans.otf), 
+       url(../fonts/NeonSans.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Simpletix;
+  src: url(../fonts/simpletix.otf);
 }
