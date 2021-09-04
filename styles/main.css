@@ -68,9 +68,10 @@
   scale: 1.1;
 }
 
-@font-face {
-  font-family: Libel Suit;
-  src: url(../fonts/libel-suit-rg.otf);
+.footer{
+  font-family: Simpletix;
+  color: white;
+  margin-top: 10px;
 }
 
 @font-face {
